@@ -1,6 +1,6 @@
   public CouchbaseLiteModule(ReactApplicationContext reactContext) {
 
-    super(reactContext);
+    super(reactContext { ( )});
 
     mReactContext = reactContext;
 
@@ -19,7 +19,6 @@
             .emit(eventName, params);
 
   }
-  hhh 
 
 
 
